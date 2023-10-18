@@ -72,17 +72,17 @@ base.metadata.create_all(db)
 #     print(album.AlbumId, album.Title, album.ArtistId, sep=" | ")
 
 # Query 6 - select only tracks by composer Queen #
-tracks = session.query(Track).filter_by(Composer="Queen")
-for track in tracks:
-    print(
-        track.TrackId,
-        track.Name,
-        track.AlbumId,
-        track.MediaTypeId,
-        track.GenreId,
-        track.Composer,
-        track.Milliseconds,
-        track.Bytes,
-        track.UnitPrice,
-        sep=" | "
-        )
+# tracks = session.query(Track).filter_by(Composer="Queen")
+# for track in tracks:
+#     print(
+#         track.TrackId,
+#         track.Name,
+#         track.AlbumId,
+#         track.MediaTypeId,
+#         track.GenreId,
+#         track.Composer,
+#         track.Milliseconds,
+#         track.Bytes,
+#         track.UnitPrice,
+#         sep=" | "
+#         )
